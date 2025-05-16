@@ -1,0 +1,27 @@
+myenv/
+# .gitignore
+
+# Abaikan virtual environment
+myenv/
+
+# Cache dan file Python sementara
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# File log
+*.log
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# Dataset atau file besar lain (opsional)
+*.csv
+*.h5
+*.hdf5
+*.model
+*.pkl
